@@ -1,0 +1,118 @@
+*{
+    margin:0px;
+    padding:0px
+}
+#per:hover{
+    background-color: rgb(122, 118, 113);
+    color: black;
+}
+nav{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    font-stretch:wider;
+    margin-left: 56%;
+}
+li{
+    font-weight:bold;
+    font-style:unset;
+    padding-right: 40px;
+    color:rgb(176, 171, 171)
+}
+.searchbar{
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 40px;
+    text-align: center;
+}
+input{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 20px;
+    width: 70%;
+}
+input:hover{
+    background-color: rgb(69, 69, 30);
+    color: rgb(207, 247, 247);
+}
+.box{
+    border-color: black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-width: 2px;border-style: solid;
+    display: inline-block;
+    width:220px;
+    border-style:groove;
+    padding:5px;
+    text-align: center;
+}
+.box:hover{
+    background-color: black;
+    color:white
+}
+.product{
+    padding: 15px;
+    text-align: center;
+}
+.about{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.contact{
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    background-color:black ;
+    color: white;
+    text-align: center;
+    padding: 40px;
+
+}
+.spin9ner{
+    display:inline-block;
+    background-color: rgb(249, 249, 249);
+    height: 170px;
+    align: center;
+    width: 170px;
+    margin: 9px;
+    padding: 30px;
+    border-radius: 55%;
+    border:25px dotted rgb(255, 255, 255);
+    border-top: 30px solid rgb(0, 0, 0);
+    animation: ani 1s linear infinite;
+}
+@keyframes ani{
+    to{
+        transform: rotate(739deg);
+    }
+}
+.img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#contact:hover{
+    background-color: rgb(122, 118, 113);
+    color: black;
+}
+#about:hover{
+    border-radius: 40px;
+    background-color: rgba(245, 171, 80, 0.386);
+    color: black;
+}
+#con:hover{
+    color:rgb(222, 210, 210);
+}
